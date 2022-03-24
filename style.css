@@ -290,11 +290,11 @@ body {
   .title { transition-delay: .75s !important; }
   .text { transition-delay: 1s !important; }
 }
-/*@media (max-width: 50em) {
+@media (max-width: 50em) {
   .background { transform: translate(-50%, -100%); }
-}*/
+}
 
-/* animations 
+/* animations */
 .background {
   transition: 1s ease-in-out .65s;
 }
@@ -317,5 +317,5 @@ body {
 .text.active {
   opacity: 1;
   transform: translateY(0);
-}*/
+}
 
